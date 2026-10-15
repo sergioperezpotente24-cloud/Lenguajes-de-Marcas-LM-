@@ -1,68 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FC Barcelona - Inicio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="./" href="">
-</head>
-
+    <title>Mi página con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+   </head>
 <body>
 
-    <header>
-        <nav>
-            <a href="./index.html">Inicio</a>
-            <a href="./noticias.html">Noticias</a>
-            <a href="./contact.html">Contacto</a>
-            <a href="./about.html">Sobre nosotros</a>
-        </nav>
-    </header>
-
-    <main>
-
-        <h1 class="Barcelona">Bienvenidos al FC Barcelona</h1>
-
-        <h2 class="clubb">
-            El mejor club del mundo
-        </h2>
-
-        <figure id="Imagen">
-            <img src="./img/fc_barcelona_logo.jpg" alt="Escudo del FC Barcelona">
-        </figure>
-
-        <div class="club">
-            <h2>Sobre el club</h2>
+  
+    <main class="container my-2">
+      <div class="row">
+        <div class="col-12 ">
+            <h1>Título de la página</h1>
+            
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 ">
+            <img src="./img/01-Joan_Garcia-BLUE.webp" class="img-fluid w-50"  alt="imagen de un minion">
+        </div>
+        <div class="col-12 col-lg-6 bg-danger border border-dark">
+            <p>Los Minions son unos pequeños personajes amarillos, divertidos 
+                y traviesos que aparecen en las películas de Gru, mi villano 
+                favorito. Hablan un idioma muy peculiar, les encantan los plátanos 
+                y siempre se meten en situaciones disparatadas. Su misión es servir 
+                al villano más malvado, aunque sus torpezas suelen provocar un montón 
+                de problemas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 ">
+            <h2>Personajes de los Minions</h2>
+            <ul>
+                <li>Kevin</li>
+                <li>Stuart</li>
+                <li>Bob</li>
+            </ul>
+        </div>
+        <div class="col-12 col-lg-4 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24366.73006833116!2d-3.787679247247035!3d40.23483158603021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f53999357c7f%3A0x373b04d561d407e1!2sParla%2C%20Madrid!5e0!3m2!1ses!2ses!4v1792060652251!5m2!1ses!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
 
-        <div>
-            <p>
-                El FC Barcelona fue fundado en 1899 y tiene su sede en
-                Barcelona, España. El club es conocido por sus colores
-                azul y grana y por su estadio, el Spotify Camp Nou.
-            </p>
+        <div class="col-12 col-lg-4 ">
+            <p>os Minions son unos pequeños personajes amarillos, divertidos 
+                y traviesos que aparecen en las películas de Gru, mi villano 
+                favorito. Hablan un idioma muy peculiar, les encantan los plátanos 
+                y siempre se meten en situaciones disparatadas. Su misión es servir 
+                al villano más malvado, aunque sus torpezas suelen provocar un montón 
+                de problemas</p>
+        </div>
+      </div>
 
-            <p>
-                A lo largo de su historia, el Barcelona ha conseguido
-                numerosos títulos nacionales e internacionales y ha
-                contado con grandes futbolistas.
-            </p>
+      <div class="card h-100 shadow-sm" style="max-width:22rem;">
+        <img src="https://picsum.photos/600/400?1" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Tarjeta</h5>
+        <p class="card-text">Texto de ejemplo.</p>
+        <a href="#" class="btn btn-success">Acción</a>
+        </div>
+        </div>
+      <div class="row">
+        <div class="col-6 col-lg-3  ">
+
+        <img src="./img/fc_barcelona_logo.jpg" class="img-fluid w-50" alt="minion">
+
         </div>
 
-        <h3>Conoce más sobre el Barça</h3>
+        <div class="col-6 col-lg-3 ">
 
-        <p>
-            Puedes visitar nuestra sección de noticias para conocer
-            las novedades del equipo o nuestra galería para ver
-            imágenes del FC Barcelona.
-        </p>
+        <img src="./img/16-Fermin-BLUE.webp" class="img-fluid w-50"  alt="minion">
 
+        </div>
+
+        <div class="col-6 col-lg-3 ">
+
+        <img src="img/01-Joan_Garcia-BLUE.webp" class="img-fluid w-50"  alt="minion">
+
+        </div>
+        
+      </div>
+      
+        
     </main>
 
-    <footer>
-        <p>© 2026 FC Barcelona - Sergio Perez</p>
-    </footer>
+    
+    <!-- Bootstrap 5.3.8 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

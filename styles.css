@@ -1,141 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* MENÚ */
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    background-color: rgb(180, 204, 204);
-
-    padding: 2%;
-
-    border-radius: 5%;
-}
-
-nav a {
-    color: rgb(190, 25, 25);
-
-    padding: 10px 20px;
-
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-nav a:hover {
-    background-color: rgb(9, 54, 179);
-    color: white;
+h1 {
+    color: #123456;
+    font-size: 32px;
 }
 
-
-
-.Barcelona {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: Arial, sans-serif;
-
-    background-color: rgb(215, 228, 228);
-
-    border-radius: 5%;
-
-    padding: 2%;
+h2 {
+    color: #0d6efd;
+    font-size: 24px;
 }
 
-
-
-.clubb {
-    text-align: center;
-
-    font-family: Arial, sans-serif;
-
-    margin: 15px;
-
-    color: rgb(9, 54, 179);
+h3 {
+    font-size: 18px;
 }
-
-
-/* IMAGEN */
-
-#Imagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: fit-content;
-
-    margin: 20px auto;
-
-    padding: 5px;
-
-    border: 5px solid rgb(190, 25, 25);
-
-    border-radius: 20px;
-
-    background-color: white;
-}
-
-#Imagen img {
-    width: 300px;
-
-    border-radius: 10px;
-}
-
-
-/* TEXTO */
 
 p {
-    color: black;
-
-    margin: 5px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-
-/* SOBRE EL CLUB */
-
-.club {
-    margin: 20px;
-
-    color: rgb(9, 54, 179);
+li {
+    margin-bottom: 8px;
 }
 
-
-/* CONTENIDO */
-
-main {
-    background-color: rgb(174, 185, 196);
-
-    padding-bottom: 20px;
-
-    flex: 1;
-}
-
-
-/* FOOTER */
-
-footer {
-    background-color: rgb(35, 35, 80);
-
-    color: white;
-
-    text-align: center;
-
+.bg-danger {
+    background-color: white ;
     padding: 20px;
+    border: 1px solid #cccccc ;
 }
 
-footer p {
-    color: white;
+img {
+    max-width: 100%;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+.btn-success {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.linkedin{
+    width: 5%;
+}
+
+.correo{
+    width: 5%;
+}
+.telefono{
+    width: 5%;
+}
+
+.ubicacion{
+    width: 5%;
 }
